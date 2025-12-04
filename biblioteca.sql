@@ -39,9 +39,9 @@ CREATE TABLE `autor` (
 --
 
 INSERT INTO `autor` (`id`, `autor`, `imagen`, `estado`) VALUES
-(1, 'ultima prueba', 'logo.png', 1),
-(2, 'cambiar el nombre llll', '20210514132528.jpg', 1),
-(3, 'popoiipippi', 'logo.png', 1);
+(1, 'autor1', 'logo.png', 1),
+(2, 'autor2', '20210514132528.jpg', 1),
+(3, 'autor3', 'logo.png', 1);
 
 -- --------------------------------------------------------
 
@@ -63,7 +63,7 @@ CREATE TABLE `configuracion` (
 --
 
 INSERT INTO `configuracion` (`id`, `nombre`, `telefono`, `direccion`, `correo`, `foto`) VALUES
-(1, 'Vida Informático', '925491523', 'Lima - Perú', 'angelsifuentes@gmail.com', 'logo.png');
+(1, 'Jose Luis', '925491523', 'Cusco - Perú', 'JoseLuis@gmail.com', 'logo.png');
 
 -- --------------------------------------------------------
 
@@ -106,7 +106,7 @@ CREATE TABLE `editorial` (
 
 INSERT INTO `editorial` (`id`, `editorial`, `estado`) VALUES
 (1, 'Ninguna', 1),
-(2, 'Toribio anyarin', 0);
+(2, 'Editorial1', 0);
 
 -- --------------------------------------------------------
 
@@ -130,8 +130,11 @@ CREATE TABLE `estudiante` (
 --
 
 INSERT INTO `estudiante` (`id`, `codigo`, `dni`, `nombre`, `carrera`, `direccion`, `telefono`, `estado`) VALUES
-(1, '12345', '74589745', 'Angel sifuentes', 'Ingenieria de sistemas', 'Lima peru', '925491523', 1),
-(2, '465', '9779879', 'Prueba', 'Ingenieria', 'Lima', '987978456', 1);
+(1, '123sd01', '74589745', 'Estudiante1', 'Ingenieria de sistemas', 'Estudiante', '925491523', 1),
+(2, '123sd02', '74589745', 'Estudiante2', 'Enfermeria', 'Estudiante', '925491523', 1),
+(3, '123sd03', '74589745', 'Estudiante3', 'Turismo', 'Estudiante', '925491523', 1),
+(4, '123sd04', '74589745', 'Estudiante4', 'Hosteleria', 'Estudiante', '925491523', 1),
+(5, '123ds05', '97798792', 'Estudiante5', 'Ingenieria', 'Estudiante', '987978456', 1);
 
 -- --------------------------------------------------------
 
@@ -158,10 +161,10 @@ CREATE TABLE `libro` (
 --
 
 INSERT INTO `libro` (`id`, `titulo`, `cantidad`, `id_autor`, `id_editorial`, `anio_edicion`, `id_materia`, `num_pagina`, `descripcion`, `imagen`, `estado`) VALUES
-(1, 'poiopioioiop', 50, 1, 1, '2021-05-08', 1, 1335, 'si', 'logo.png', 1),
-(2, 'Javascript', 69, 1, 1, '2021-05-08', 2, 1478, 'Domina javascript', '20210514132615.jpg', 1),
-(3, 'python para todos', 23, 1, 1, '2021-05-08', 1, 258, 'anaconda', 'logo.png', 1),
-(4, 'ultima prueba', 23, 1, 1, '2021-05-14', 1, 569, '', '20210514132757.jpg', 1);
+(1, 'libro1', 50, 1, 1, '2021-05-08', 1, 1335, 'si', 'logo.png', 1),
+(2, 'libro2', 69, 1, 1, '2021-05-08', 2, 1478, 'Domina asdasd', '20210514132615.jpg', 1),
+(3, 'libro3', 23, 1, 1, '2021-05-08', 1, 258, 'anacondadasads', 'logo.png', 1),
+(4, 'libro4', 23, 1, 1, '2021-05-14', 1, 569, '', '20210514132757.jpg', 1);
 
 -- --------------------------------------------------------
 
@@ -180,8 +183,8 @@ CREATE TABLE `materia` (
 --
 
 INSERT INTO `materia` (`id`, `materia`, `estado`) VALUES
-(1, 'Base de Datos', 1),
-(2, 'Ingenieria de Software', 1),
+(1, 'Aventura', 1),
+(2, 'Informatica', 1),
 (3, 'Algebra', 1),
 (4, 'Matematica', 1);
 
@@ -256,8 +259,8 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `usuario`, `nombre`, `clave`, `estado`) VALUES
-(1, 'admin', 'Angel sifuentes', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918', 1),
-(2, 'angel', 'Vida Informatico', '519ba91a5a5b4afb9dc66f8805ce8c442b6576316c19c6896af2fa9bda6aff71', 1);
+(1, 'admin', 'Jose Luis', 'f4c1f55d5d365cde1fb66b9f0b96f803fc5d8c28e87aa8bef2bf5d7d288c35ac', 1),
+(2, 'Jose', 'asdasd', '519ba91a5a5b4afb9dc66f8805ce8c442b6576316c19c6896af2fa9bda6aff71', 1);
 
 --
 -- Índices para tablas volcadas

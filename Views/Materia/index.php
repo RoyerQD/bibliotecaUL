@@ -1,10 +1,10 @@
 <?php include "Views/Templates/header.php"; ?>
 <div class="app-title">
     <div>
-        <h1><i class="fa fa-dashboard"></i> Materias</h1>
+        <h1><i class="fa fa-dashboard"></i> Categorias</h1>
     </div>
 </div>
-<button class="btn btn-primary mb-2" type="button" onclick="frmMateria()"><i class="fa fa-plus"></i></button>
+<button class="btn btn-primary mb-2" type="button" onclick="frmMateria()"><i class="fa fa-plus"></i> Nueva Categoria</button>
 <div class="row">
     <div class="col-lg-12">
         <div class="tile">
@@ -31,7 +31,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary text-white">
-                <h5 class="modal-title text-white" id="title">Registro Materia</h5>
+                <h5 class="modal-title text-white" id="title">Registro Categoria</h5>
                 <button class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -43,7 +43,7 @@
                             <div class="form-group">
                                 <label for="materia">Nombre</label>
                                 <input type="hidden" id="id" name="id">
-                                <input id="materia" class="form-control" type="text" name="materia" required placeholder="Nombre de Materia">
+                                <input id="materia" class="form-control" type="text" name="materia" required placeholder="Nombre de Categoria">
                             </div>
                         </div>
 

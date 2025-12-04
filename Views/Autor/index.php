@@ -4,7 +4,7 @@
         <h1><i class="fa fa-dashboard"></i> Autores</h1>
     </div>
 </div>
-<button class="btn btn-primary mb-2" type="button" onclick="frmAutor()"><i class="fa fa-plus fa-2x"></i></button>
+<button class="btn btn-primary mb-2" type="button" onclick="frmAutor()"><i class="fa fa-plus fa-2x"></i> Nuevo Autor</button>
 <div class="row">
     <div class="col-md-12">
         <div class="tile">

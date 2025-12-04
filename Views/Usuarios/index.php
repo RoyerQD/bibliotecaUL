@@ -4,7 +4,7 @@
         <h1><i class="fa fa-dashboard"></i> Usuarios</h1>
     </div>
 </div>
-<button class="btn btn-primary mb-2" type="button" onclick="frmUsuario();"><i class="fa fa-plus"></i></button>
+<button class="btn btn-primary mb-2" type="button" onclick="frmUsuario();">Nuevo Usuario<i class="fa fa-plus"></i></button>
 <div class="row">
     <div class="col-lg-12">
         <div class="tile">

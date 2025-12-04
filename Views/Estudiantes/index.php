@@ -1,10 +1,10 @@
 <?php include "Views/Templates/header.php"; ?>
 <div class="app-title">
     <div>
-        <h1><i class="fa fa-dashboard"></i> Estudiantes</h1>
+        <h1><i class="fa fa-dashboard"></i>Lector</h1>
     </div>
 </div>
-<button class="btn btn-primary mb-2" type="button" onclick="frmEstudiante()"><i class="fa fa-plus"></i></button>
+<button class="btn btn-primary mb-2" type="button" onclick="frmEstudiante()"><i class="fa fa-plus"></i> Nuevo Lector</button>
 <div class="row">
     <div class="col-lg-12">
         <div class="tile">
@@ -18,7 +18,7 @@
                                 <th>Dni</th>
                                 <th>Nombre</th>
                                 <th>Carrera</th>
-                                <th>Dirección</th>
+                                <th>Tipo</th>
                                 <th>Teléfono</th>
                                 <th>Estado</th>
                                 <th></th>
@@ -77,10 +77,16 @@
                         </div>
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label for="direccion">Dirección</label>
-                                <input id="direccion" class="form-control" type="text" name="direccion" required placeholder="Dirección">
+                                <label for="direccion">Tipo</label>
+                               
+                                <select id="direccion" class="form-control" type="text" name="direccion">
+                                    <option value="Estudiante">Estudiante</option>
+                                    <option value="Docente">Docente</option>
+                                    <option value="Exterior">Exterior</option>
+                                </select>
                             </div>
                         </div>
+                        
                         <div class="col-md-12">
                             <div class="form-group">
                                 <button class="btn btn-primary" type="submit" onclick="registrarEstudiante(event)" id="btnAccion">Registrar</button>

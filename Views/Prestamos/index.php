@@ -4,7 +4,7 @@
         <h1><i class="fa fa-dashboard"></i> Prestamos</h1>
     </div>
 </div>
-<button class="btn btn-primary mb-2" onclick="frmPrestar()"><i class="fa fa-plus"></i></button>
+<button class="btn btn-primary mb-2" onclick="frmPrestar()"><i class="fa fa-plus"></i> Nuevo Prestamo</button>
 <div class="tile">
     <div class="tile-body">
         <div class="table-responsive">
@@ -48,7 +48,7 @@
                     <div class="row">
                         <div class="col-md-9">
                             <div class="form-group">
-                                <label for="estudiante">Estudiante</label><br>
+                                <label for="estudiante">Lector</label><br>
                                 <select name="estudiante" id="estudiante" class="form-control estudiante" required style="width: 100%;">
 
                                 </select>

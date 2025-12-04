@@ -4,7 +4,7 @@
         <h1><i class="fa fa-dashboard"></i> Libros</h1>
     </div>
 </div>
-<button class="btn btn-primary mb-2" onclick="frmLibros()"><i class="fa fa-plus"></i></button>
+<button class="btn btn-primary mb-2" onclick="frmLibros()"><i class="fa fa-plus"></i> Nuevo Libro</button>
 <div class="row">
     <div class="col-lg-12">
         <div class="tile">
@@ -70,7 +70,7 @@
                     </div>
                     <div class="col-md-5">
                         <div class="form-group">
-                            <label for="materia">Materia</label><br>
+                            <label for="materia">Categoria</label><br>
                             <select id="materia" class="form-control materia" name="materia" required style="width: 100%;">
                                 
                             </select>
