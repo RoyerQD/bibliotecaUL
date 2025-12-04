@@ -18,7 +18,9 @@
     </section>
     <section class="login-content">
         <div class="logo">
-            <h1>Bienvenido</h1>
+            <h1>Bienvenido a la Biblioteca</h1>
+                    <center><h1>Tupac Amaru</h1></center>
+    <center><img src="<?php echo base_url; ?>Assets/img/logo.png" alt="Logo Biblioteca" style="max-width: 150px; height: auto; margin-bottom: 20px;"></center>
         </div>
         <div class="login-box">
             <form class="login-form" id="frmLogin" onsubmit="frmLogin(event);">
